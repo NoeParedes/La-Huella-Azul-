@@ -21,7 +21,7 @@ function Methodology() {
           <div className="transform transition-transform duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 text-gray-800">Diseño del GIF</h3>
             <p className="text-gray-700">
-              El GIF consta de 15 imágenes consecutivas que muestran la evolución del impacto tecnológico.
+              El GIF consta de imágenes consecutivas que muestran la evolución del impacto tecnológico.
               Se utilizan íconos de empresas tecnológicas y código binario, con tamaños que representan
               su huella de carbono.
             </p>
