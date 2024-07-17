@@ -9,11 +9,19 @@ function References() {
           <FaBook className="mr-3" />
           Referencias
         </h2>
-        <ul className="list-decimal list-inside space-y-3 text-gray-700">
-          <li>Castañeda Olvera, D. R. (2022). La nube contaminante. Un análisis socioambiental de la huella de carbono digital. <i>Paakat: Revista de Tecnología y Sociedad, 12</i>(22).</li>
-          <li>Delgado A. (2022, marzo 24). Steve Wilhite, creador de los GIFs, fallece a los 74 años.</li>
-          <li>Friedmann, J. (2023, noviembre 20). Powering a greener future: How data centers can slash emissions. <i>Transforming Data with Intelligence.</i></li>
-          <li>Sarah-Indra. (2024, abril 30). Our digital carbon footprint: What's the environmental impact of the online world? <i>Digital for Good | RESET.org.</i></li>
+        <ul className="space-y-3 text-gray-700">
+          <li>
+            Castañeda Olvera, D. R. (2022). La nube contaminante. Un análisis socioambiental de la huella de carbono digital. <i>Paakat: Revista de Tecnología y Sociedad, 12</i>(22).
+          </li>
+          <li>
+            Delgado A. (2022, marzo 24). Steve Wilhite, creador de los GIFs, fallece a los 74 años.
+          </li>
+          <li>
+            Friedmann, J. (2023, noviembre 20). Powering a greener future: How data centers can slash emissions. <i>Transforming Data with Intelligence.</i>
+          </li>
+          <li>
+            Sarah-Indra. (2024, abril 30). Our digital carbon footprint: What's the environmental impact of the online world? <i>Digital for Good | RESET.org.</i>
+          </li>
         </ul>
       </div>
     </section>
