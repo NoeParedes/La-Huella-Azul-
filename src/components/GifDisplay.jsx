@@ -18,7 +18,7 @@ function GifDisplay() {
             />
           </div>
           <figcaption className="text-center mt-3 text-xs sm:text-sm text-gray-600">
-            La Huella Azul
+           
           </figcaption>
         </figure>
       </div>

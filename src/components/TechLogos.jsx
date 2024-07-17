@@ -36,6 +36,7 @@ const logos = [
   { src: linkedin, name: 'LINKEDIN', year: 2002 },
   { src: android, name: 'ANDROID', year: 2003 },
   { src: tesla, name: 'TESLA', year: 2003 },
+  { src: fb, name: 'FACEBOOK', year: 2004 },
   { src: youtube, name: 'YOUTUBE', year: 2005 },
   { src: reddit, name: 'REDDIT', year: 2005 },
   { src: spotify, name: 'SPOTIFY', year: 2006 },
@@ -45,7 +46,8 @@ const logos = [
   { src: twitch, name: 'TWITCH', year: 2011 },
   { src: telegram, name: 'TELEGRAM', year: 2013 },
   { src: discord, name: 'DISCORD', year: 2015 },
-  { src: chatgpt, name: 'CHATGPT', year: 2022 }, // Actualización de la fecha de ChatGPT
+  { src: chatgpt, name: 'CHATGPT', year: 2022 }, 
+
 ];
 
 function TechLogos() {
