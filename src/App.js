@@ -7,6 +7,9 @@ import Team from './components/Team';
 import References from './components/References';
 import Footer from './components/Footer';
 import TechLogos from './components/TechLogos';
+import ArtisticReferences from './components/ArtisticReferences';
+import Methodology from './components/Methodology';
+
 
 function App() {
   return (
@@ -16,7 +19,9 @@ function App() {
         <GifDisplay />
         <TechLogos /> {/* Añadir el componente de los logos aquí */}
         <ProjectInfo />
+        <Methodology />
         <Research />
+        <ArtisticReferences />
         <Team />
         <References />
       </main>
