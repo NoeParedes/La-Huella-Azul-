@@ -4,13 +4,13 @@ import { FaCode, FaPencilAlt } from 'react-icons/fa';
 function Methodology() {
   return (
     <section id="methodology" className="my-12">
-      <div className="bg-white p-8 rounded-lg shadow-md">
+      <div className="bg-white p-8 rounded-lg shadow-md transform transition-transform duration-700 ease-in-out hover:scale-105">
         <h2 className="text-3xl font-bold mb-6 flex items-center text-blue-600">
-          <FaPencilAlt className="mr-3" />
+          <FaPencilAlt className="mr-3 animate-bounce" />
           Metodología
         </h2>
         <div className="space-y-6">
-          <div>
+          <div className="transform transition-transform duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 text-gray-800">Proceso de Trabajo</h3>
             <ol className="list-decimal list-inside space-y-2 text-gray-700">
               <li>Investigación exhaustiva sobre tecnología y medio ambiente</li>
@@ -18,7 +18,7 @@ function Methodology() {
               <li>Selección del formato artístico (GIF animado)</li>
             </ol>
           </div>
-          <div>
+          <div className="transform transition-transform duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 text-gray-800">Diseño del GIF</h3>
             <p className="text-gray-700">
               El GIF consta de 15 imágenes consecutivas que muestran la evolución del impacto tecnológico.
@@ -26,12 +26,12 @@ function Methodology() {
               su huella de carbono.
             </p>
           </div>
-          <div>
+          <div className="transform transition-transform duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 flex items-center text-gray-800">
-              <FaCode className="mr-2" />
+              <FaCode className="mr-2 animate-bounce" />
               Código de Creación del GIF
             </h3>
-            <pre className="bg-gray-100 p-4 rounded-md overflow-x-auto text-sm">
+            <pre className="bg-gray-100 p-4 rounded-md overflow-x-auto text-sm transform transition-transform duration-500 hover:scale-105">
               <code className="language-python">
 {`from PIL import Image
 import imageio.v2 as imageio

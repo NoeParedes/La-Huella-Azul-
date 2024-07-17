@@ -31,20 +31,20 @@ function ArtisticReferences() {
 
   return (
     <section id="artistic-references" className="my-12">
-      <div className="bg-white p-8 rounded-lg shadow-md">
+      <div className="bg-white p-8 rounded-lg shadow-md transform transition-transform duration-700 ease-in-out hover:scale-105">
         <h2 className="text-3xl font-bold mb-6 flex items-center text-blue-600">
-          <FaPalette className="mr-3" />
+          <FaPalette className="mr-3 animate-bounce" />
           Referentes Artísticos
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {artists.map((artist, index) => (
-            <div key={index} className="border rounded-lg overflow-hidden shadow-lg">
+            <div key={index} className="border rounded-lg overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
               <div className="p-4">
                 <div className="flex items-center mb-4">
                   <img src={artist.photo} alt={artist.name} className="w-16 h-16 rounded-full mr-4 object-cover" />
                   <h3 className="text-xl font-semibold text-gray-800">{artist.name}</h3>
                 </div>
-                <img src={artist.artwork} alt={`Obra de ${artist.name}`} className="w-full h-48 object-cover mb-4 rounded" />
+                <img src={artist.artwork} alt={`Obra de ${artist.name}`} className="w-full h-48 object-cover mb-4 rounded transition-transform duration-500 transform hover:scale-110" />
                 <p className="text-gray-700 text-sm">{artist.description}</p>
               </div>
             </div>
