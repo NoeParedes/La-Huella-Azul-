@@ -8,7 +8,7 @@ function GifDisplay() {
         <figure className="relative">
           <div 
             className="border-20 border-blue-500 rounded-lg overflow-hidden shadow-md 
-                       hover:shadow-lg hover:scale-[1.02] active:shadow-lg active:scale-[1.02] 
+                       hover:shadow-lg hover:scale-[1.05] active:shadow-lg active:scale-[1.1] 
                        transition-all duration-150"
           >
             <img 
