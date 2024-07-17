@@ -6,6 +6,7 @@ import Research from './components/Research';
 import Team from './components/Team';
 import References from './components/References';
 import Footer from './components/Footer';
+import TechLogos from './components/TechLogos';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <main className="container mx-auto px-4 py-8 flex-grow">
         <GifDisplay />
+        <TechLogos /> {/* Añadir el componente de los logos aquí */}
         <ProjectInfo />
         <Research />
         <Team />
