@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderWidth: {
+        '20': '20px',
+      },
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(100%)' },
