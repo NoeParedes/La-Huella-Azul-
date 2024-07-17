@@ -16,7 +16,7 @@ function ArtisticReferences() {
       description: "Explora la intersección entre la tecnología y el medio ambiente, cuestionando la sostenibilidad y el impacto ambiental de la tecnología moderna. Su trabajo nos inspiró en la determinación del valor y el mensaje que queríamos transmitir con nuestro proyecto.",
     },
     {
-      name: "",
+      name: "Joana Moll",
       photo: JoanaMollPhoto,
       artwork: JoanaMollArtwork,
       description: "Busca visibilizar cómo el uso de la tecnología afecta al planeta y a sus habitantes. Su enfoque nos ayudó a determinar cómo queríamos mostrar nuestro proyecto de manera disruptiva.",
