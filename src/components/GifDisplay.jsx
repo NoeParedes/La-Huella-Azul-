@@ -7,7 +7,7 @@ function GifDisplay() {
       <div className="max-w-sm mx-auto sm:max-w-md md:max-w-lg lg:max-w-xl">
         <figure className="relative">
           <div 
-            className="border-0 border-blue-500 rounded-lg overflow-hidden shadow-md 
+            className="border-20 border-blue-500 rounded-lg overflow-hidden shadow-md 
                        hover:shadow-lg hover:scale-[1.02] active:shadow-lg active:scale-[1.02] 
                        transition-all duration-150"
           >
