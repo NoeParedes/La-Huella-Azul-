@@ -14,7 +14,7 @@ function Team() {
       <div className="bg-white p-8 rounded-lg shadow-md transform transition-transform duration-700 ease-in-out hover:scale-105">
         <h2 className="text-3xl font-bold mb-6 flex items-center text-blue-600">
           <FaUsers className="mr-3 animate-bounce" />
-          Nuestro Equipo
+          Autores
         </h2>
         <ul className="space-y-2">
           {team.map((member, index) => (

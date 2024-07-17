@@ -19,10 +19,10 @@ function App() {
           <GifDisplay />
           <TechLogos />
           <ProjectInfo />
+          <Team />
           <Methodology />
           <Research />
           <ArtisticReferences />
-          <Team />
           <References />
         </div>
       </main>

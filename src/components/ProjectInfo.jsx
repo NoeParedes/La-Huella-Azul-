@@ -7,7 +7,7 @@ function ProjectInfo() {
       <div className="bg-white p-8 rounded-lg shadow-md transform transition-transform duration-700 ease-in-out hover:scale-105">
         <h2 className="text-3xl font-bold mb-6 flex items-center text-blue-600">
           <FaInfoCircle className="mr-3 animate-pulse" />
-          Sobre "La Huella Azul"
+          La Huella Azul
         </h2>
         
         <div className="space-y-6">
